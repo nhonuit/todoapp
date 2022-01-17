@@ -1,0 +1,13 @@
+body{
+    background-color: pink;
+    text-align: center;
+}
+th{
+    font-size: 30px;
+}
+table{
+    text-align: center;
+}
+td{
+    width: 500px;
+}
