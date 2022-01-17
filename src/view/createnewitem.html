@@ -47,35 +47,27 @@ setInterval(refreshTime, 1000);
 
 
 <div class="list">
-<table >
-  <th>Time</th>
-  <th>Do</th>
-  <th>Action</th>
-  <tr>
-    <td>T1</td>
-    <td>T1</td>
-    <td><button class="btn btn-danger">Xóa</button><button class="btn btn-primary">Sửa</button><button class="btn btn-success">Đã làm xong</button><button  class="btn btn-warning">Không làm</button></td>
-    <script>
-    
-    //Ẩn button khi đưa chuột vào
-    
-    
-    /*$(".btn btn-warning").mouseover(function(){
-      $(".btn btn-warning").hide();
-    });
-    $(".btn btn-warning").mouseout(function(){
-      $(".btn btn-warning").show();
-    });*/
-
-
-    
-    </script>
-  </tr>
-  
-</table>
+  <h1>Create new item</h1>
+  <div class="row">
+         
+              <h3 class="col-md-4">Title</h3>
+              <h3 class="col-md-4">Description</h3>
+              <h3 class="col-md-4">Date due</h3>
+              
+      </div>
+      
+      <div class="row">
+         
+        <input type="text" class="col-md-4" placeholder="Item1" required>
+        <input type="text" class="col-md-4" placeholder="Description1" required>
+        <input type="date" class="col-md-4" placeholder="Date due" required>
+        
+</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Create item</button>
 </div>
 
 
-        </div>
+      
 </body>
 </html>

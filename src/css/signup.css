@@ -7,15 +7,14 @@ h1{
     text-align: center;
     padding-bottom: 5%;
 }
-#signup-form{
- 
 
-}
 a{  
     text-decoration: none;
 }
 
 .signupbox{  
+    width: 600px;
+
     color: black;
     position: absolute;
     top: 50%;
@@ -25,13 +24,14 @@ a{
     
    
     font-size: 130%;
-    
+    position: absolute;
 
 }
 .signupbox input{
     margin-bottom: 20px;
 }
 .btn-link{
+    padding-top: 20%;
     text-align: center;
     text-decoration: none;
 }
